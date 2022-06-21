@@ -1,0 +1,165 @@
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+.modal__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+.modal-body {
+  background-color: #fff;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Authen modal */
+.auth-form {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.auth-form__container {
+  padding: 0 32px;
+}
+.auth-form__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.auth-form__heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: red;
+}
+.auth-form__switch-btn {
+  font-size: 1.6rem;
+  color: red;
+  font-weight: 400;
+  cursor: pointer;
+}
+.auth-form__form {
+  padding-right: 32px;
+}
+.close {
+  font-size: 32px;
+  border: none;
+  padding: unset;
+  background-color: #fff;
+  color: #999;
+  height: 29px;
+  width: 24px;
+}
+.close:active {
+  color: #333;
+  background-color: #efefefdc;
+}
+.auth-form__input {
+  width: 100%;
+  height: 28px;
+  margin-bottom: 10px;
+  padding: 0 12px;
+  font-size: 0.8rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  outline: none;
+}
+.auth-form__input:focus {
+  border-color: #888;
+}
+.auth-form__aside {
+  margin-top: 18px;
+}
+.auth-form__policy-text {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  text-align: center;
+  padding: 0 12px;  
+}
+.auth-form__text-link {
+  color: red;
+  text-decoration: none;
+}
+/* Button style */
+/* thuoc tinh chung */
+.btn {
+  min-width: 116px;
+  height: 30px;
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn.btn--normal:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.btn.btn--size-s {
+  height: 20px;
+  font-size: 16px;
+}
+
+.btn.btn--primary {
+  color: #fff;
+  background-color: red;
+  
+}
+.btn.btn--disable {
+  cursor: default;
+  color: #949494;
+  background-color: #c3c3c3;
+}
+
+
+
+/* thuoc tinh rieng */
+.auth-form__controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 36px;
+}
+.auth-form__controls-back {
+  margin-right: 8px;
+}
+.auth-form__socials {
+  background-color: #F5F5F5;
+  padding: 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.auth-form__socials-icon {
+  font-size: 1.4rem;
+
+}
+.auth-form__socials-facebook {
+  background-color: #fff;
+  color: #0c88ef;
+}
+.auth-form__socials-facebook
+.auth-form__socials-icon {
+  color: #0c88ef;
+} 
+.auth-form__socials-item {
+  color: #333;
+  margin-left: 12px;
+}
+
+.auth-form__socials-google {
+  background-color: #fff;
+}

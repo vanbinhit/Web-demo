@@ -1,0 +1,239 @@
+/* Responsive */
+
+.nav__bars-btn {
+    width: 54px;
+    color: #fff;
+    display: none !important;
+    margin: 0 !important;
+}
+.svg-inline--fa {
+    margin-top: 7px;
+    width: 16px;
+}
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0 , 0.3);
+}
+
+/* .nav-mobile {
+    height: 30px;
+    display: block;
+}
+.nav__mobile__list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    min-width: 100%;
+    background-color: #fff  ;
+}
+.nav__mobile__item {
+
+}
+.nav__mobile__item-link {
+
+} */
+
+/* Mobile: Width < 740px   */
+@media only screen and (max-width: 812px) {
+    /* top-bar */
+    .nav__bars-btn {
+        display: block !important;
+        
+    }
+    .top-bar__list  {
+        display: none;
+       
+    }
+    /* logo-search-car */
+    .logo-binh {
+        width: 100%;
+    }
+    .logo-item {
+        width: 100%;
+    }
+    .navbar-brand {
+        margin: auto !important;
+    }
+    .align-text-top {
+        margin: auto;
+    }
+    .row__align-item-center {
+        display: block;
+    }
+    .row-item-1 {
+        display: block;
+        height: 100%;
+        margin-left: 0;
+        padding-bottom: 12px;
+    }
+    .column-4 {
+        margin: 0 32px;
+        width: 90%;
+    }
+    .container-timkiem {
+        width: 84%;
+        margin-left: 18px;
+    }
+    .search {
+        margin: 0;
+    }
+    .search input {
+        height: 30.5px;
+        margin-top: -0.5px;
+    }
+    .search i {
+        height: 30.5px;
+        margin-top: -0.5px;
+    }
+    .row-item-2 {
+        display: block;
+        height: 100%;
+        margin-bottom: 22px;
+    } 
+    .column-6 {
+        display: block;
+        margin-left: -28px;
+    }
+    .hotline {
+        margin-top: 18px;
+    }
+    .shopping-cart {
+        width: 120px;
+        margin-top: 14px;
+    }
+    .cart-item__top {
+        top: 125px;
+        left: 72px;
+        font-size: 8px;
+        width: 12px;
+        height: 12px;
+    }
+    .categories {
+        margin-top: 14px;
+    }
+    .hotline {
+        display: none;
+    }
+    ul.products-sanpham {
+        margin: auto;
+        display: block;
+    }
+    ul.products-sanpham li {
+        /* flex-basis: 100%; */
+    }
+   
+    .product-item {
+        margin-left: 2px;
+    }
+    .img-product {
+        /* width: 262px; */
+    }
+    .col-auto-item {
+        display: none;
+    }
+    .col-auto {
+        display: none;
+    }
+    .justify-content-center {
+        width: auto;
+    }
+    
+}
+
+
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 748px) and (max-width: 1024px) {
+    /* .nav__bars-btn {
+        display: block !important;
+        
+    }
+    .top-bar  {
+        display: none;
+       
+    } */
+
+    /* logo-search-car */
+    .logo-search-car {
+        padding-bottom: 14px;
+    }
+    .search {
+        margin-top: 1px;
+    }
+    .row__align-item-center {
+        display: block;
+    }
+    .row-item-1 {
+        justify-content: space-around;
+        margin-left: 16px;
+    }
+    .container-timkiem {
+        width: 325px !important;
+    }
+    .search i {
+        margin-top: 0;
+    }
+    .search input {
+        margin-top: 0;
+    }
+    .row-item-2 {
+        /* margin-left: 45px; */
+        margin-left: 20px;
+    }
+    .column-6 {
+        margin-top: 0;
+    }
+    
+    .shopping-cart {
+        /* height: 32px; */
+    }
+    .categories {
+        margin-left: 28px !important;
+    }
+    .cart-item__top  {
+        /* transform: translate(-34px, 69px); */
+        /* top: 128px;
+        right: 388px; */
+        top: 129px;
+        right: 412px;
+    }
+    ul.products-sanpham li {
+        /* flex-basis: 32%; */
+    }
+    .product-item-an {
+        display: none !important;
+    }
+    .product-price del {
+        margin-left: 0px;
+        font-size: 13px;
+    }
+    .product-price span {
+        font-size: 18px;
+    }
+    .slick-dots {
+        transform: translate(-50%, 160px) !important;
+    }
+    .text-center {
+        margin-top: 170px;
+    }
+    .col-auto-item {
+        display: none;
+    }
+    .footer-list-item1 {
+        margin-bottom: 4px;
+    }
+    .footer-ul1 {
+        margin-left: 44px;
+    }
+    .footer-1 {
+        margin-left: 20px;
+    }
+    
+    
+}

@@ -1,0 +1,12 @@
+.nav-header__img {
+    text-align: center;
+}
+
+.row-item-center {
+    font-family: monospace;
+    padding: 36px 60px;
+    font-size: 16px;
+}
+.row-item-center span {
+    color: #dc2686;
+}

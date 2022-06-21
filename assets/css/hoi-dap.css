@@ -1,0 +1,23 @@
+.body-hoidap {
+    padding: 0 42px;
+    margin-bottom: 52px;
+    /* margin: 0 12px; */
+}
+.hoidap-header {
+    margin-top: 14px;
+    text-align: center;
+    font-size: 28px;
+}
+.accordion {
+    margin: 14px 16px;
+}
+.accordion-header {
+    font-size: 15px;
+}
+.accordion-body {
+    font-size: 14px;
+}
+
+.fa-circle-question {
+    margin-right: 10px;
+}

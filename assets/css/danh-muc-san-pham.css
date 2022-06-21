@@ -1,0 +1,5 @@
+.product_item {
+    float:left;
+    width:220px; /* bề rộng bao nhiêu tùy bạn */
+    display:block;
+ }
